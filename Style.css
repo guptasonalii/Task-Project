@@ -1,0 +1,84 @@
+:root{
+    --primary-color:#ff553e;
+    --secondary-color:#333;
+    --white-color:#fff;
+    --black-color:#000;
+}
+.text-content{
+    width: 60%;
+    margin: auto;
+}
+.top-header{
+    background-color: var(--secondary-color);
+}
+.top-header span{
+    font-size: 0.875rem;
+    color: var(--white-color);
+    letter-spacing: 0.1062rem;
+
+}
+.navigation-wrap{
+    position:fixed;
+    width: 100%;
+    left:0;
+    z-index: 1000;
+    transition: all 0.3s ease-out;
+    -webkit-transition: all 0.3s ease-out;
+}
+.wrapper{
+    background-color:var(--white-color);
+}
+.navbar-brand{
+    color: #ff553e ;
+    font-size:4vw;
+}
+.navigation-wrap .nav-item{
+    padding: 0 0.5rem;
+    transition: all 200ms linear;
+}
+.navbar-toggler:focus{
+outline: unset;
+border: none;
+box-shadow:none ;
+}
+.navigation-wrap .nav-link{
+    padding: 0.9375rem;
+    font-size: 0.875rem;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: black;
+    letter-spacing: 0.0625rem;
+}
+.navigation-wrap .nav-link:hover,
+.navigation-wrap .nav-link.active{
+    color: var(--primary-color);
+
+}
+:active,
+:hover,
+:focus{
+    outline: 0 !important;
+    outline-offset: 0;
+}
+li a{
+    font-size: larger;
+    color: blueviolet;
+}
+a,
+a:hover{
+    text-decoration: none;
+    
+}
+a:hover{
+    color:var(--primary-color) !important;
+}
+ul,
+ol{
+    margin: 0;
+    padding:0;
+}
+.container1{
+    background-color:whitesmoke;
+    text-align: center;
+    margin-top: 2vw;
+}
